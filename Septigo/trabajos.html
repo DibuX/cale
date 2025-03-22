@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Trabajos | Septigo</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/trabajos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <img src="img/septigologo.png" alt="Septigo Logo" class="loader-logo">
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="img/septigologo.png" alt="Septigo Logo">
+                </a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotras.html">Sobre Nosotras</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="trabajos.html" class="active">Trabajos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Nuestros Trabajos</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Inicio</a> / <span>Trabajos</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-intro" data-aos="fade-up">
+                <h2>Proyectos Destacados</h2>
+                <p>Explora nuestra selección de trabajos en diferentes categorías</p>
+            </div>
+
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="videoclips">Videoclips</button>
+                <button class="filter-btn" data-filter="moda">Moda</button>
+                <button class="filter-btn" data-filter="eventos">Eventos</button>
+                <button class="filter-btn" data-filter="redes">Redes Sociales</button>
+                <button class="filter-btn" data-filter="animaciones">Animaciones</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="videoclips" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/tcmqv.jpg" alt="Videoclip Musical">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Videoclip "Tiempo"</h3>
+                                <p>Dirección y producción</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project1">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="moda" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/dof.jpg" alt="Campaña de Moda">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Colección Primavera</h3>
+                                <p>Fotografía y edición</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project2">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="eventos" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/dof.jpg" alt="Cobertura de Evento">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Festival de Música</h3>
+                                <p>Cobertura audiovisual</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project3">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="redes" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/dof.jpg" alt="Contenido para Redes">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Campaña Digital</h3>
+                                <p>Contenido para Instagram</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project4">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="animaciones" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/enfrente.jpg" alt="Animación">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Logo Animado</h3>
+                                <p>Motion graphics</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project5">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="videoclips" data-aos="fade-up">
+                    <div class="portfolio-image">
+                        <img src="img/tcmqv.jpg" alt="Videoclip Musical">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Videoclip "Espacio"</h3>
+                                <p>Dirección y producción</p>
+                                <a href="#" class="btn btn-sm portfolio-view" data-project="project6">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal del Proyecto -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <!-- detalles del proyecto (Hidden) -->
+    <div class="project-details" id="project1" style="display: none;">
+        <div class="project-header">
+            <h2>Videoclip "Tiempo"</h2>
+            <p class="project-category">Videoclips</p>
+        </div>
+        <div class="project-gallery">
+            <img src="img/tcmqv.jpg" alt="Videoclip Tiempo">
+            <img src="img/tcmqv.jpg" alt="Videoclip Tiempo">
+        </div>
+        <div class="project-info">
+            <div class="project-description">
+                <h3>Descripción del Proyecto</h3>
+                <p>Videoclip musical para la canción "Tiempo" del artista independiente Juan Pérez. El concepto explora la relación entre el tiempo y la memoria a través de una narrativa visual poética.</p>
+                <p>Filmado en locaciones urbanas de Buenos Aires, el videoclip combina escenas narrativas con secuencias experimentales para crear una experiencia visual inmersiva que complementa la atmósfera de la canción.</p>
+            </div>
+            <div class="project-details-info">
+                <h3>Detalles</h3>
+                <ul>
+                    <li><strong>Cliente:</strong> Juan Pérez</li>
+                    <li><strong>Fecha:</strong> Marzo 2023</li>
+                    <li><strong>Servicios:</strong> Dirección, Producción, Edición</li>
+                    <li><strong>Equipo:</strong> Carolina Acevedo, Celeste Scravaglieri, Candela Donadio</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Te gustaría un proyecto similar?</h2>
+                <p>Contáctanos para discutir tus ideas</p>
+                <a href="contacto.html" class="btn btn-light">Hablemos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/septigologo.png" alt="Septigo Logo">
+                    <p>Productora Audiovisual</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotras.html">Sobre Nosotras</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="trabajos.html">Trabajos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@septigo.com</p>
+                    <p><i class="fas fa-phone"></i> +54 11 1234 5678</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Septigo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/trabajos.js"></script>
+</body>
+</html>
+

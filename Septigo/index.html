@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Septigo | Productora Audiovisual</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <img src="img/septigologo.png" alt="Septigo Logo" class="loader-logo">
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <img src="img/septigologo.png" alt="Septigo Logo">
+                </a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="active">Inicio</a></li>
+                        <li><a href="nosotras.html">Sobre Nosotras</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="trabajos.html">Trabajos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1 class="slide-title">Damos vida a tus ideas</h1>
+                    <p class="slide-description">Productora audiovisual creativa y profesional</p>
+                    <a href="contacto.html" class="btn btn-primary">Contáctanos</a>
+                </div>
+                <!-- acá agregale una imagen al Hero en los parentesis -->
+                <div class="slide-bg" style="background-image: url('')"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1 class="slide-title">Creatividad sin límites</h1>
+                    <p class="slide-description">Transformamos tus sueños en proyectos visuales inolvidables</p>
+                    <a href="trabajos.html" class="btn btn-primary">Ver trabajos</a>
+                </div>
+                <div class="slide-bg" style="background-image: url('')"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1 class="slide-title">Experiencia profesional</h1>
+                    <p class="slide-description">Equipo de diseñadoras unidas por la pasión audiovisual</p>
+                    <a href="nosotras.html" class="btn btn-primary">Conócenos</a>
+                </div>
+                <div class="slide-bg" style="background-image: url('')"></div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Servicios Vista previa -->
+    <section class="services-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones audiovisuales para cada necesidad</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videoclips</h3>
+                    <p>Creamos videoclips profesionales que capturan la esencia de tu música.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Producción de Moda</h3>
+                    <p>Sesiones fotográficas y videos para destacar tus colecciones y productos.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Cobertura de Eventos</h3>
+                    <p>Capturamos cada momento importante de tu evento con calidad profesional.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3>Redes Sociales</h3>
+                    <p>Contenido audiovisual optimizado para todas tus plataformas digitales.</p>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="servicios.html" class="btn btn-secondary">Ver todos los servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajos Recientes -->
+    <section class="recent-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trabajos Recientes</h2>
+                <p class="section-subtitle">Algunos de nuestros proyectos destacados</p>
+            </div>
+            <div class="works-grid">
+                <div class="work-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="work-image">
+                        <img src="img/tcmqv.jpg" alt="Videoclip">
+                        <div class="work-overlay">
+                            <div class="work-info">
+                                <h3>Videoclip Musical</h3>
+                                <p>Dirección y producción</p>
+                                <a href="trabajos.html" class="btn btn-sm">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="work-image">
+                        <img src="img/dof.jpg" alt="Producción de Moda">
+                        <div class="work-overlay">
+                            <div class="work-info">
+                                <h3>Campaña de Moda</h3>
+                                <p>Fotografía y edición</p>
+                                <a href="trabajos.html" class="btn btn-sm">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="work-image">
+                        <img src="img/enfrente.jpg" alt="Animación">
+                        <div class="work-overlay">
+                            <div class="work-info">
+                                <h3>Animación Corporativa</h3>
+                                <p>Diseño y animación</p>
+                                <a href="trabajos.html" class="btn btn-sm">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="trabajos.html" class="btn btn-secondary">Ver todos los trabajos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About vista previa -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="img/nos.jpeg" alt="Equipo Septigo">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h2>SEPTIGO</h2>
+                    <p>Somos una productora audiovisual creada por tres amigas diseñadoras, unidas por la pasión de dar vida a tus ideas y momentos más especiales.</p>
+                    <p>Con una visión creativa, profesional y cercana, nuestra misión es transformar tus sueños en proyectos visuales inolvidables.</p>
+                    <a href="nosotras.html" class="btn btn-primary">Conoce más sobre nosotras</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Llamado a la Acción (CTA)-->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Tienes un proyecto en mente?</h2>
+                <p>Cuéntanos tu idea y hagámosla realidad juntos</p>
+                <a href="contacto.html" class="btn btn-light">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/septigologo.png" alt="Septigo Logo">
+                    <p>Productora Audiovisual</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotras.html">Sobre Nosotras</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="trabajos.html">Trabajos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@septigo.com</p>
+                    <p><i class="fas fa-phone"></i> +54 11 1234 5678</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Buenos Aires, Argentina</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Septigo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de Volver Arriba -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
+
